@@ -1,0 +1,80 @@
+.projectcontainer{
+    margin: 100px 175px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filterbtn, .viewbtn{
+    background-color: rgb(1,1,88);
+    margin-right: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    min-width: 50px;
+    transition: all 0.5s;
+}
+.filterbtn:hover{
+    background-color: blue;
+}
+
+.frames {
+    margin: 50px 225px 0px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
+    gap: 50px;
+  }
+  .framebox {
+    width:285px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+  }
+.viewbtn{
+    opacity: 0;
+    transition: all 0.5;
+    cursor: pointer;
+}
+.framebox:hover{
+    background-color: rgba(240, 248, 255, 0.418);
+    transition: all 0.5;
+}
+.framebox:hover .viewbtn{
+    opacity: 0.8;
+}
+.viewbtn:hover{
+    background-color: blue;
+}
+.iframe{
+    position: absolute;
+    width: 285px;
+    height: 200px;
+    border-radius: 8px;
+    z-index: -1;
+}
+.framebox {
+    opacity: 0;
+    transition: opacity 2s;
+  }
+  
+  .framebox.fade-in {
+    opacity: 1;
+  }
+  @media screen and (max-width: 768px) {
+    .projectcontainer{
+        margin: 10px 20px;
+        flex-direction: column;
+    }
+    .frames{
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+  }

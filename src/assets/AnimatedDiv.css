@@ -1,0 +1,11 @@
+.animated-div {
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  .fade-in-left {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  

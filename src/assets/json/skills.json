@@ -1,0 +1,50 @@
+[
+    {
+        "name":"Java"
+        
+    },
+    {
+        "name":"Python"
+      
+    },
+    {
+        "name":"MySQL"
+        
+    },
+    {
+        "name":"Cloud Computing"
+        
+    },
+    {
+        "name":"HTML/CSS"
+        
+    },
+    {
+        "name":"JavaScript"
+        
+    },
+    {
+        "name":"Python"
+      
+    },
+    {
+        "name" : "NodeJS"
+    },
+    {
+        "name":"ReactJS"
+        
+    },
+    {
+        "name":"NextJS"
+       
+    },
+    {
+        "name": "PHP"
+    },
+    {
+        "name": "MongoDB"
+    },
+    {
+        "name" : "Django"
+    }
+  ]

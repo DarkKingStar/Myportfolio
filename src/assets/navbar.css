@@ -1,0 +1,86 @@
+.navcontainer{
+    background-color: #444;
+    color: white;
+    width: 100%;
+}
+nav{
+    margin: 0px 175px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heading{
+    /* flex itmes-center gap-[10px] */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo{
+    /* w-[35px] h-[35px] mt-2 bg-white text-black text-[18px] font-[500] rounded-full flex items-center justify-center */
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brandName{
+    line-height: 10px;
+}
+/*text-xl text-white font-[700]
+text-white text-[14px] mb-1 font-[500] */
+.theName{
+   font-size: 1.25rem;
+}
+.title{
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+li a{
+    padding: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+    transition: all 0.5s;
+    color: rgba(255, 255, 255, 0.69);
+    text-decoration: none;
+}
+li:hover a{
+    color: rgb(255, 255, 255);
+}
+.resume-btn{
+    cursor: pointer;
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: none;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.715);
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: all 0.5s;
+}
+.resume-btn:hover{
+    background-color: blue;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .navigator{
+        display: none;
+    }
+    nav{
+        margin: 0px 15px;
+    }
+}

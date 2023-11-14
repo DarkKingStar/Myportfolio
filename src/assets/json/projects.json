@@ -1,0 +1,27 @@
+[
+    {
+      "src": "./static/project1.PNG",
+      "href": "https://customerpage.vercel.app/"
+    },
+    {
+      "src": "./static/project2.PNG",
+      "href": "https://job-worker.vercel.app/"
+    },
+    {
+      "src": "./static/project3.PNG",
+      "href": "https://customerpage.vercel.app/"
+    },
+    {
+        "src": "./static/project4.PNG",
+        "href": "https://customerpage.vercel.app/"
+    },
+    {
+        "src": "./static/project5.PNG",
+        "href": "https://customerpage.vercel.app/"
+    },
+    {
+        "src": "./static/project6.PNG",
+        "href": "https://customerpage.vercel.app/"
+    }
+  ]
+  

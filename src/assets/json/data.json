@@ -1,0 +1,100 @@
+[
+    [
+        {
+            "src": "./static/project1.PNG",
+            "href": "https://customerpage.vercel.app/"
+        },
+        {
+            "src": "./static/project2.PNG",
+            "href": "https://job-worker.vercel.app/"
+        },
+        {
+            "src": "./static/projectdemo.PNG",
+            "href": "https://customerpage.vercel.app/"
+        },
+        {
+            "src": "./static/projectdemo.PNG",
+            "href": "https://customerpage.vercel.app/"
+        },
+        {
+            "src": "./static/projectdemo.PNG",
+            "href": "https://customerpage.vercel.app/"
+        },
+        {
+            "src": "./static/projectdemo.PNG",
+            "href": "https://customerpage.vercel.app/"
+        }
+    ],
+    [
+        {
+            "name":"Facebook",
+            "logo": "./static/logo/facebook.svg",
+            "link":"https://www.facebook.com/people/Sudipta-Saha/pfbid0B9y8R6KTsPojHARsjYcBMHU25NBAViNCvh36wpuiewYJ2waMMRX4bzjsWjnrT4U6l/"
+        },
+        {
+            "name":"Instagram",
+            "logo": "./static/logo/instagram.svg",
+            "link":"https://www.instagram.com/sudipta_rccns/"
+        },{
+            "name":"Linkedin",
+            "logo": "./static/logo/linkedin.svg",
+            "link":"https://www.linkedin.com/in/sudipta-saha-b17948202"
+        },{
+            "name":"WhatsApp",
+            "logo": "./static/logo/whatsapp.svg",
+            "link":"https://wa.me/91978591532"
+        },{
+            "name":"Telegram",
+            "logo": "./static/logo/telegram.svg",
+            "link":"https://t.me/S_Sudipta"
+        },{
+            "name":"Github",
+            "logo": "./static/logo/github.svg",
+            "link":"https://github.com/s-sudipta"
+        }
+    ],
+    [
+        {
+            "name":"Java",
+            "href": "https://customerpage.vercel.app/"
+        },
+        {
+            "name":"C/C++",
+            "href": "https://customerpage.vercel.app/"
+        },
+        {
+            "name":"DBMS",
+            "href": "https://customerpage.vercel.app/"
+        },
+        {
+            "name":"Data Stucture",
+            "href": "https://customerpage.vercel.app/"
+        },
+        {
+            "name":"HTML/CSS",
+            "href": "https://customerpage.vercel.app/"
+        },
+        {
+            "name":"JavaScript",
+            "href": "https://customerpage.vercel.app/"
+        },
+        {
+            "name":"Python",
+            "href": "https://customerpage.vercel.app/"
+        }
+    ],
+    [{
+        "initial":"SS",
+        "name": "Sudipta Saha",
+        "name-size": "12",
+        "user-email":"sudipta.saha1532@gmail.com",
+        "Qual":"A CS Engineering Graduate",
+        "ResumeURL":"./media/Sudipta_Saha_Resume.pdf",
+        "Qual-size": "25",
+        "photoURL": "./static/photo.png",
+        "desc":"Hard working and reliable individual willing to work in a position of Computer Engineer,with ability to develop and learn different programming languages and excel in them andto get an opportunity where I can make the best of my potential and contribute to the organization's growth.",
+        "footerdesc":"Every great developer you know got there by solving problems which they were unqualified to solve until they actually did it.",
+        "footerslogan":"Want to give me an opportunity?",
+        "maploactionURL":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29445.7732232866!2d88.36704966225608!3d22.701403522740144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89c0bf0119e61%3A0xf3dedf82eaf68307!2sSodepur%2C%20Kolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1694011830873!5m2!1sen!2sin"
+    }]
+]

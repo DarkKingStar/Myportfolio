@@ -1,0 +1,28 @@
+[
+    {
+        "name":"Facebook",
+        "logo": "./static/logo/facebook.svg",
+        "link":"https://www.facebook.com/profile.php?id=100090390823408"
+    },
+    {
+        "name":"Instagram",
+        "logo": "./static/logo/instagram.svg",
+        "link":"https://www.instagram.com/darkinstarpro/"
+    },{
+        "name":"Linkedin",
+        "logo": "./static/logo/linkedin.svg",
+        "link":"https://www.linkedin.com/in/sounak-guha-70075a203/"
+    },{
+        "name":"WhatsApp",
+        "logo": "./static/logo/whatsapp.svg",
+        "link":"https://wa.me/919831739043"
+    },{
+        "name":"Telegram",
+        "logo": "./static/logo/telegram.svg",
+        "link":"https://t.me/Dark_InStar"
+    },{
+        "name":"Github",
+        "logo": "./static/logo/github.svg",
+        "link":"https://github.com/DarkKingStar"
+    }
+  ]

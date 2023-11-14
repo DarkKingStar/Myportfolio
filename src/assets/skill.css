@@ -1,0 +1,98 @@
+.skillcontainer{
+    margin-top:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.skill{
+    display: flex;
+    flex-direction: row;
+}
+.label-box{
+    background-color: rgb(226, 240, 248);
+    height: 50px;
+    margin: 10px 30px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center; 
+}
+
+
+
+.label-box {
+    opacity: 0;
+    transition: all 1.4s;
+  }
+  
+  .label-box.animate {
+    opacity: 1;
+  }
+  
+  .left-to-right {
+    transform: translateX(-100px);
+  }
+  
+  .right-to-left {
+    transform: translateX(100px);
+  }
+  
+  .left-to-right.animate {
+    transform: translateX(0);
+  }
+  
+  .right-to-left.animate {
+    transform: translateX(0);
+  }
+
+
+
+  
+.linedrop{
+    /* width: 600px; */
+    height: 2.5px;
+    background-color: rgb(165 180 252);
+    transform: rotate(90deg) translate(8%,0);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: -1;
+}
+
+.dropicon{
+    margin-top: 35px;
+    background-color: rgb(1, 1, 88);
+    height: fit-content;
+    padding: 6px;
+    padding-bottom: 2px;
+    border-radius: 9999px;
+}
+.dropicon i img{
+    filter: invert(66%) sepia(77%) saturate(1330%) hue-rotate(196deg) brightness(108%) contrast(98%);
+}
+.skillright{
+    position: relative;
+    left:130px;
+    display: flex;
+}
+.skillleft{
+    position: relative;
+    right:130px;
+    display: flex;
+}
+@media screen and (max-width: 768px) {
+  .label-box{
+    width: 150px;
+  }
+  .skillright{
+    left:105px;
+}
+.skillleft{
+    right:105px;
+}
+
+}
