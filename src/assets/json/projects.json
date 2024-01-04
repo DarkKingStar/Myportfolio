@@ -9,19 +9,24 @@
     },
     {
       "src": "./static/project3.PNG",
-      "href": "https://customerpage.vercel.app/"
+      "href": "https://github.com/DarkKingStar/Lead-Tracker"
     },
     {
         "src": "./static/project4.PNG",
-        "href": "https://customerpage.vercel.app/"
+        "href": "https://tony-chopper.vercel.app/"
     },
     {
         "src": "./static/project5.PNG",
-        "href": "https://customerpage.vercel.app/"
+        "href": "https://github.com/DarkKingStar/BelugaOP/"
     },
     {
         "src": "./static/project6.PNG",
-        "href": "https://customerpage.vercel.app/"
+        "href": "https://github.com/DarkKingStar/nodejs-database-chat-app"
+    },
+    {
+      "src": "./static/project7.PNG",
+      "href": "https://github.com/arpanburman/GRINDSZN_APP"
     }
   ]
+  
   

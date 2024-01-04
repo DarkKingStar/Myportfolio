@@ -31,6 +31,12 @@ const FrameBox = ({ src, href, index }) => {
     const showMoreProjects = () => {
       setVisibleProjects(prevVisible => prevVisible + 3);
     };
+    const showAllProjects = () =>{
+      setVisibleProjects(projects.length);
+    };
+    const showLessProjects = () =>{
+      setVisibleProjects(prevVisible => prevVisible - 3);
+    }
     return (
       <>
         <div className="projectcontainer u-s-n">
@@ -38,9 +44,7 @@ const FrameBox = ({ src, href, index }) => {
             <h1>Projects</h1>
           </div>
           <div>
-            <button className="filterbtn">All</button>
-            <button className="filterbtn">FullStack</button>
-            <button className="filterbtn">UI/UX</button>
+            <button className="filterbtn"  onClick={showAllProjects}>All</button>    
           </div>
         </div>
         <div className='frames u-s-n'>
@@ -56,6 +60,11 @@ const FrameBox = ({ src, href, index }) => {
         {visibleProjects < projects.length && (
           <div className="projectcontainer" style={{ marginTop: "10px", justifyContent: "center", alignItems: "center" }}>
             <button className="filterbtn" onClick={showMoreProjects}>Show More</button>
+          </div>
+        )}
+        {visibleProjects >= projects.length && (
+          <div className="projectcontainer" style={{ marginTop: "10px", justifyContent: "center", alignItems: "center" }}>
+            <button className="filterbtn" onClick={showLessProjects}>Show Less</button>
           </div>
         )}
         
