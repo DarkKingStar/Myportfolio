@@ -1,50 +1,97 @@
 [
     {
-        "name":"Java"
-        
+        "name":"DSA",
+        "category":[
+            {
+                "name":"Java",
+                "img":"https://cdn-icons-png.flaticon.com/512/226/226777.png"
+            },
+            {
+                "name":"Python",
+                "img":"https://cdn-icons-png.flaticon.com/512/5968/5968350.png"
+            },
+            {
+                "name":"C/C++",
+                "img":"https://cdn-icons-png.flaticon.com/512/6132/6132222.png"
+            },
+            {
+                "name":"TypeScript",
+                "img":"https://cdn-icons-png.flaticon.com/512/5968/5968381.png"
+            }   
+        ]
     },
     {
-        "name":"Python"
-      
+        "name":"Frontend",
+        "category":[
+            {
+                "name":"HTML/CSS",
+                "img":"https://cdn-icons-png.flaticon.com/512/82/82127.png"
+            },
+            {
+                "name":"JavaScript",
+                "img":"https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
+            },
+            {
+                "name":"ReactJS",
+                "img":"https://cdn-icons-png.flaticon.com/512/760/760357.png"
+
+            },
+            {
+                "name":"NextJs",
+                "img":"https://cdn.worldvectorlogo.com/logos/next-js.svg"
+            },
+            {
+                "name":"Angular",
+                "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/512px-Angular_full_color_logo.svg.png?20160527092314"
+            }
+        ]
     },
     {
-        "name":"MySQL"
-        
+        "name":"Backend",
+        "category":[
+            {
+                "name":"NodeJS",
+                "img":"https://cdn-icons-png.flaticon.com/512/919/919825.png"
+            },
+            {
+                "name":"Spring-boot",
+                "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/512px-Spring_Boot.svg.png?20230616230349"
+            },
+            {
+                "name":"NestJS",
+                "img":"https://nestjs.com/img/logo-small.svg"
+            }
+        ]
     },
     {
-        "name":"Cloud Computing"
-        
+        "name": "Mobile-App Frameworks",
+        "category":[
+            {
+                "name": "React Native",
+                "img": "https://cdn-icons-png.flaticon.com/512/760/760357.png"
+            },
+            {
+                "name": "Expo",
+                "img": "https://cdn.icon-icons.com/icons2/2389/PNG/512/expo_logo_icon_145293.png"
+            }
+            
+        ]
     },
     {
-        "name":"HTML/CSS"
-        
-    },
-    {
-        "name":"JavaScript"
-        
-    },
-    {
-        "name":"Python"
-      
-    },
-    {
-        "name" : "NodeJS"
-    },
-    {
-        "name":"ReactJS"
-        
-    },
-    {
-        "name":"NextJS"
-       
-    },
-    {
-        "name": "React Native"
-    },
-    {
-        "name": "MongoDB"
-    },
-    {
-        "name" : "Expo"
+        "name":"Database",
+        "category":[
+            {
+                "name":"MySQL",
+                "img":"https://seeklogo.com/images/M/mysql-logo-B4943FE6DD-seeklogo.com.png"
+            },
+            {
+                "name":"MongoDB",
+                "img":"https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png"
+            },
+            {
+                "name":"Firebase",
+                "img":"https://miro.medium.com/v2/resize:fit:650/0*PnSXmPqSlfh3evkq"
+            }
+        ]
     }
   ]
