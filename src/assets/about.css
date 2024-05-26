@@ -115,7 +115,7 @@ figure{
     transform: translateX(0);
   }
   .photo {
-    mix-blend-mode: darken;
+    mix-blend-mode: color-burn;
     opacity: 0;
     transition: opacity 0.5s;
   }
