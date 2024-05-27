@@ -32,6 +32,9 @@ figure{
 }
 .resumelink{
     color:rgb(1, 1, 88);
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 15px;
 }
 
 .hiremebtn{
@@ -117,7 +120,7 @@ figure{
   .photo {
     mix-blend-mode: color-burn;
     opacity: 0;
-    transition: opacity 0.5s;
+    transition: opacity 2s ease-in-out;
   }
   
   .photo.fade-in {

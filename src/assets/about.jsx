@@ -62,23 +62,28 @@ const SlideInFromLeft = () => {
   );
 };
 
-const TypingAnimation = ({ text, len}) => {
+const TypingAnimation = ({ delay, text, len}) => {
   const [currentText, setCurrentText] = useState('');
   const [ref, inView] = useInView({
-    triggerOnce: true,
+    triggerOnce: false,
   });
 
   useEffect(() => {
     if (inView) {
       let index = 0;
-      const typingInterval = setInterval(() => {
-        setCurrentText((prev) => prev + text[index-1]);
-        index++;
-        if (index === text.length) {
-          clearInterval(typingInterval);
-        }
-        
-      }, 40);
+      setTimeout(() => {
+        const typingInterval = setInterval(() => {
+          setCurrentText((prev) => prev + text[index-1]);
+          index++;
+          if (index === text.length) {
+            clearInterval(typingInterval);
+          }
+          
+        }, 60);
+      },delay);
+     
+    }else{
+      setCurrentText('');
     }
   }, [inView,text]);
 
@@ -90,20 +95,22 @@ function About(){
     <div className="abtcontainer">
         <div className="flexcontainer">
             <div className='details u-s-n'>
+              <div style={{height:"160px"}}>
             <h3>
-                <TypingAnimation text="Hi," len="3" />
+                <TypingAnimation delay={0} text="Hi," len="3" />
             </h3>
             <h1>
-                <TypingAnimation text={`I'm ${details.name}`} len={`${Number(details['name-size']) + Number(4)}`}/>
+                <TypingAnimation delay={60*3+60} text={`I'm ${details.name}`} len={`${Number(details['name-size'])+4}`}/>
             </h1>
             <h2>
-                <TypingAnimation text={details.Qual} len={details['Qual-size']}/>
+                <TypingAnimation delay={60*3+60*Number(details['name-size'])+4+60} text={details.Qual} len={details['Qual-size']}/>
             </h2>
+              </div>
             <SlideInButton />
             <a
             href={details.ResumeURL}
             target="_blank"
-            className="resumelink"
+            className="resumelink fade-in"
             >
             See Resume
             </a>
