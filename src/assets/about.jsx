@@ -82,8 +82,6 @@ const TypingAnimation = ({ delay, text, len}) => {
         }, 60);
       },delay);
      
-    }else{
-      setCurrentText('');
     }
   }, [inView,text]);
 

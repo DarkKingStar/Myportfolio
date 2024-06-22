@@ -15,11 +15,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(224 231 255);
+    background-color: rgb(184, 200, 255);
     border-radius: 20px;
 }
 .messagebox{
-    
     height: 450px;
     flex-basis: 50%;
     display: flex;

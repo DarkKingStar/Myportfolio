@@ -32,14 +32,7 @@ function Contact() {
             name: nameRef.current.value,
             message: messageRef.current.value
         };
-
         console.log(formData);
-        try {
-            const response = await axios.post('/.netlify/functions/sendEmail', formData);
-            console.log(response.data);
-          } catch (error) {
-            console.error(error.message);
-          }
     };
     return (
       <>
@@ -60,8 +53,8 @@ function Contact() {
             </div>
 
             <div className="messagebox">
-            {!valid && <span style={{ color: 'red'}}>Please enter a valid email address</span>}
               <input type="text" placeholder="Enter Your Email" onChange={handleChangeEmail} ref={emailRef}/>
+            {!valid && <span style={{ color: 'red', fontSize:'9px', margin:0,padding:0}}>Please enter a valid email address</span>}
               <input type="text" placeholder="Enter Your Name" ref={nameRef}/>
               <textarea placeholder="Enter Your Message" ref={messageRef} />
               <button onClick={handleSubmit} className="send-btn" id={valid?'':'disable'} disabled={valid?false:true}>
